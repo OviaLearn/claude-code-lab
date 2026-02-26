@@ -15,13 +15,4 @@
     "GITHUB_PERSONAL_ACCESS_TOKEN": "${localEnv:GITHUB_PERSONAL_ACCESS_TOKEN}"
   }
 }
-```
 
-4. Click **Commit changes** → **Commit directly to main**
-
-Your repo should now look like this:
-```
-claude-code-lab/
-├── .devcontainer/
-│   └── devcontainer.json
-└── README.md
