@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "title": "Northwind Retail: 300-Server Migration in 90 Days",
+      "description": "Migrated a complex on-premises data centre to Azure with zero downtime, reducing infrastructure costs by 42%.",
+      "category": "migration",
+      "label": "Migration",
+      "overlayLabel": "Cloud Migration",
+      "gradient": "linear-gradient(135deg,#0078d4 0%,#50e6ff 100%)",
+      "metrics": ["\u2193 42% Cost", "90-Day Delivery", "0 Hours Downtime"]
+    },
+    {
+      "title": "FinServ Corp: SOC 2 Type II on Azure Sentinel",
+      "description": "Deployed a full SIEM/SOAR stack with Microsoft Sentinel, achieving SOC 2 compliance in under 6 months.",
+      "category": "security",
+      "label": "Security",
+      "overlayLabel": "Security",
+      "gradient": "linear-gradient(135deg,#d83b01 0%,#7b2ff7 100%)",
+      "metrics": ["SOC 2 Type II", "6-Month Timeline", "0 Breaches"]
+    },
+    {
+      "title": "TechStartup: From Weekly Releases to 20x Daily Deploys",
+      "description": "Built a full GitOps pipeline on Azure DevOps and AKS, enabling continuous delivery and 99.95% availability.",
+      "category": "devops",
+      "label": "DevOps",
+      "overlayLabel": "DevOps",
+      "gradient": "linear-gradient(135deg,#008272 0%,#00b294 100%)",
+      "metrics": ["20x Deploy Frequency", "99.95% Uptime", "60% Faster Releases"]
+    },
+    {
+      "title": "HealthCo: Predictive Analytics Platform on Azure Synapse",
+      "description": "Built a real-time analytics platform processing 10M+ events/day, delivering actionable insights via Power BI.",
+      "category": "ai",
+      "label": "AI & Analytics",
+      "overlayLabel": "AI & Analytics",
+      "gradient": "linear-gradient(135deg,#ffaa44 0%,#7b2ff7 100%)",
+      "metrics": ["10M+ Events/day", "Azure Synapse", "35% Decision Speed"]
+    },
+    {
+      "title": "Manufacturing SMB: Hybrid Cloud Architecture",
+      "description": "Designed Azure Arc-enabled hybrid infrastructure connecting factory floor systems to Azure with secure, low-latency connectivity.",
+      "category": "migration",
+      "label": "Migration",
+      "overlayLabel": "Migration",
+      "gradient": "linear-gradient(135deg,#50e6ff 0%,#0078d4 100%)",
+      "metrics": ["Azure Arc", "<5ms Latency", "100% Hybrid"]
+    },
+    {
+      "title": "LegalFirm: Zero Trust Identity Rollout",
+      "description": "Implemented Azure AD / Entra ID Zero Trust across 1,200 users, cutting identity-related incidents by 95%.",
+      "category": "security",
+      "label": "Security",
+      "overlayLabel": "Security",
+      "gradient": "linear-gradient(135deg,#e74c3c 0%,#d83b01 100%)",
+      "metrics": ["1,200 Users", "Zero Trust", "\u2193 95% Incidents"]
+    }
+  ]
+}

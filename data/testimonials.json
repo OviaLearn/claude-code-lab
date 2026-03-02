@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "quote": "AzureEdge migrated our entire infrastructure in 90 days with zero downtime. The cost savings hit 42% in the first year \u2014 far exceeding our projections.",
+      "author": "James Mitchell",
+      "role": "CTO",
+      "company": "Northwind Retail Group",
+      "initials": "JM"
+    },
+    {
+      "quote": "Their security team helped us achieve SOC 2 Type II compliance on Azure Sentinel in record time. We now sleep soundly knowing our cloud is protected 24/7.",
+      "author": "Sarah Reynolds",
+      "role": "CISO",
+      "company": "FinServ Corporation",
+      "initials": "SR"
+    },
+    {
+      "quote": "We went from deploying once a week to 20+ times a day. The AKS and Azure DevOps setup AzureEdge built is rock-solid. Game-changing for our product velocity.",
+      "author": "Alex Kim",
+      "role": "VP Engineering",
+      "company": "TechStartup",
+      "initials": "AK"
+    },
+    {
+      "quote": "The managed support team is exceptional \u2014 every P1 resolved within 15 minutes, every time. Our monthly health reports give us full visibility into our Azure spend and performance.",
+      "author": "Linda Park",
+      "role": "IT Director",
+      "company": "HealthCo Systems",
+      "initials": "LP"
+    }
+  ]
+}

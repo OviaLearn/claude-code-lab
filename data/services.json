@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "title": "Cloud Migration",
+      "description": "Lift-and-shift, re-platform, or re-architect \u2014 we guide your workloads to Azure with zero downtime and minimal disruption.",
+      "features": [
+        "Assessment & roadmapping",
+        "Azure Migrate tooling",
+        "Data migration & validation",
+        "Post-migration optimisation"
+      ],
+      "iconColor": "linear-gradient(135deg,#0078d4,#106ebe)",
+      "featured": false
+    },
+    {
+      "title": "Managed Azure Infrastructure",
+      "description": "Full lifecycle management of your Azure environment \u2014 provisioning, monitoring, patching, and cost governance included.",
+      "features": [
+        "Azure Monitor & Alerts",
+        "Automated patching",
+        "Cost Management & Advisor",
+        "99.9% SLA guarantee"
+      ],
+      "iconColor": "linear-gradient(135deg,#7b2ff7,#0078d4)",
+      "featured": true
+    },
+    {
+      "title": "Azure Security & Compliance",
+      "description": "Protect your cloud estate with Microsoft Defender, Sentinel SIEM, identity governance, and compliance automation.",
+      "features": [
+        "Microsoft Defender for Cloud",
+        "Azure Sentinel (SIEM/SOAR)",
+        "Zero Trust implementation",
+        "ISO 27001 / SOC 2 readiness"
+      ],
+      "iconColor": "linear-gradient(135deg,#d83b01,#e74c3c)",
+      "featured": false
+    },
+    {
+      "title": "Azure DevOps & CI/CD",
+      "description": "Streamline delivery pipelines with Azure DevOps, GitHub Actions, and Infrastructure-as-Code using Bicep and Terraform.",
+      "features": [
+        "Azure DevOps pipelines",
+        "GitHub Actions workflows",
+        "Terraform / Bicep IaC",
+        "Container & AKS deployment"
+      ],
+      "iconColor": "linear-gradient(135deg,#008272,#00b294)",
+      "featured": false
+    },
+    {
+      "title": "Azure AI & Analytics",
+      "description": "Unlock business intelligence and AI capabilities with Azure OpenAI, Synapse Analytics, and Power BI integration.",
+      "features": [
+        "Azure OpenAI Service",
+        "Azure Synapse Analytics",
+        "Power BI embedded",
+        "Custom ML model deployment"
+      ],
+      "iconColor": "linear-gradient(135deg,#ffaa44,#e67e22)",
+      "featured": false
+    },
+    {
+      "title": "24/7 Managed Support",
+      "description": "Round-the-clock NOC and SOC support from Azure-certified engineers with guaranteed SLA response times.",
+      "features": [
+        "P1 response < 15 minutes",
+        "Dedicated account manager",
+        "Monthly health reports",
+        "Proactive incident prevention"
+      ],
+      "iconColor": "linear-gradient(135deg,#50e6ff,#0078d4)",
+      "featured": false
+    }
+  ]
+}

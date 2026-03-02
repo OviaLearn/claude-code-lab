@@ -1,0 +1,143 @@
+backend:
+  name: github
+  repo: OviaLearn/claude-code-lab
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "content"
+    label: "Site Content"
+    files:
+
+      - name: "company"
+        label: "Company Info"
+        file: "data/company.json"
+        format: "json"
+        fields:
+          - { label: "Company Name", name: "name", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Offices", name: "offices", widget: "string" }
+
+      - name: "hero"
+        label: "Hero Section"
+        file: "data/hero.json"
+        format: "json"
+        fields:
+          - { label: "Badge Text", name: "badge", widget: "string" }
+          - { label: "Title (first line)", name: "title", widget: "string" }
+          - { label: "Title Highlight (gradient line)", name: "titleHighlight", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "text" }
+
+      - name: "services"
+        label: "Services"
+        file: "data/services.json"
+        format: "json"
+        fields:
+          - label: "Service Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Features"
+                name: "features"
+                widget: "list"
+                field: { label: "Feature", name: "feature", widget: "string" }
+              - label: "Icon Colour"
+                name: "iconColor"
+                widget: "select"
+                options:
+                  - { label: "Blue (Migration)", value: "linear-gradient(135deg,#0078d4,#106ebe)" }
+                  - { label: "Purple-Blue (Managed)", value: "linear-gradient(135deg,#7b2ff7,#0078d4)" }
+                  - { label: "Red (Security)", value: "linear-gradient(135deg,#d83b01,#e74c3c)" }
+                  - { label: "Teal (DevOps)", value: "linear-gradient(135deg,#008272,#00b294)" }
+                  - { label: "Orange (AI)", value: "linear-gradient(135deg,#ffaa44,#e67e22)" }
+                  - { label: "Cyan-Blue (Support)", value: "linear-gradient(135deg,#50e6ff,#0078d4)" }
+              - { label: "Featured (Most Popular badge)", name: "featured", widget: "boolean", default: false }
+
+      - name: "case-studies"
+        label: "Case Studies"
+        file: "data/case-studies.json"
+        format: "json"
+        fields:
+          - label: "Case Study Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options:
+                  - { label: "Migration", value: "migration" }
+                  - { label: "Security", value: "security" }
+                  - { label: "DevOps", value: "devops" }
+                  - { label: "AI & Analytics", value: "ai" }
+              - { label: "Tag Label", name: "label", widget: "string" }
+              - { label: "Overlay Label", name: "overlayLabel", widget: "string" }
+              - label: "Card Gradient"
+                name: "gradient"
+                widget: "select"
+                options:
+                  - { label: "Blue → Cyan", value: "linear-gradient(135deg,#0078d4 0%,#50e6ff 100%)" }
+                  - { label: "Red → Purple", value: "linear-gradient(135deg,#d83b01 0%,#7b2ff7 100%)" }
+                  - { label: "Teal → Green", value: "linear-gradient(135deg,#008272 0%,#00b294 100%)" }
+                  - { label: "Orange → Purple", value: "linear-gradient(135deg,#ffaa44 0%,#7b2ff7 100%)" }
+                  - { label: "Cyan → Blue", value: "linear-gradient(135deg,#50e6ff 0%,#0078d4 100%)" }
+                  - { label: "Red → Dark Red", value: "linear-gradient(135deg,#e74c3c 0%,#d83b01 100%)" }
+              - label: "Metrics"
+                name: "metrics"
+                widget: "list"
+                field: { label: "Metric", name: "metric", widget: "string" }
+
+      - name: "testimonials"
+        label: "Testimonials"
+        file: "data/testimonials.json"
+        format: "json"
+        fields:
+          - label: "Testimonial Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Author Name", name: "author", widget: "string" }
+              - { label: "Role / Title", name: "role", widget: "string" }
+              - { label: "Company", name: "company", widget: "string" }
+              - { label: "Initials (shown in avatar)", name: "initials", widget: "string" }
+
+      - name: "pricing"
+        label: "Pricing"
+        file: "data/pricing.json"
+        format: "json"
+        fields:
+          - label: "Pricing Tiers"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Tier Name", name: "tier", widget: "string" }
+              - { label: "Price (number only, e.g. 1,499 — or 'Custom')", name: "price", widget: "string" }
+              - { label: "Period (e.g. /mo — leave blank for Custom)", name: "period", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Included Features"
+                name: "features"
+                widget: "list"
+                field: { label: "Feature", name: "feature", widget: "string" }
+              - label: "Excluded Features"
+                name: "disabledFeatures"
+                widget: "list"
+                field: { label: "Feature", name: "feature", widget: "string" }
+              - { label: "Featured (Most Popular badge)", name: "featured", widget: "boolean", default: false }
+              - { label: "CTA Button Text", name: "cta", widget: "string" }
+              - label: "CTA Button Style"
+                name: "ctaStyle"
+                widget: "select"
+                options:
+                  - { label: "Outline", value: "outline" }
+                  - { label: "Primary (solid blue)", value: "primary" }

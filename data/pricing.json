@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "tier": "Essential",
+      "price": "1,499",
+      "period": "/mo",
+      "description": "For startups and small businesses taking their first steps in Azure.",
+      "features": [
+        "Up to 20 Azure resources",
+        "Azure Monitor & alerts",
+        "Monthly cost reports",
+        "Business hours support",
+        "Patch management"
+      ],
+      "disabledFeatures": [
+        "Security operations (SOC)",
+        "DevOps pipeline management"
+      ],
+      "featured": false,
+      "cta": "Get Started",
+      "ctaStyle": "outline"
+    },
+    {
+      "tier": "Professional",
+      "price": "3,999",
+      "period": "/mo",
+      "description": "For growing businesses that need enterprise-grade management.",
+      "features": [
+        "Up to 100 Azure resources",
+        "Azure Monitor + Defender",
+        "Weekly cost & health reports",
+        "24/7 NOC support",
+        "Patch management",
+        "Azure Sentinel SIEM",
+        "CI/CD pipeline support"
+      ],
+      "disabledFeatures": [],
+      "featured": true,
+      "cta": "Get Started",
+      "ctaStyle": "primary"
+    },
+    {
+      "tier": "Enterprise",
+      "price": "Custom",
+      "period": "",
+      "description": "For large organisations with complex, multi-region Azure environments.",
+      "features": [
+        "Unlimited Azure resources",
+        "Full SOC & SIEM operations",
+        "Real-time cost governance",
+        "24/7 NOC + SOC",
+        "Dedicated account team",
+        "Custom SLA agreements",
+        "Architecture advisory"
+      ],
+      "disabledFeatures": [],
+      "featured": false,
+      "cta": "Contact Sales",
+      "ctaStyle": "outline"
+    }
+  ]
+}

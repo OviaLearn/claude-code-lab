@@ -39,15 +39,9 @@
       <div class="hero-particles" id="particles"></div>
     </div>
     <div class="hero-content">
-      <div class="hero-badge">Microsoft Azure Gold Partner</div>
-      <h1 class="hero-title">
-        Accelerate Your Business<br />
-        <span class="gradient-text">in the Azure Cloud</span>
-      </h1>
-      <p class="hero-subtitle">
-        End-to-end Azure managed services — from migration and architecture to
-        security, DevOps, and 24/7 support. We run your cloud so you can run your business.
-      </p>
+      <div class="hero-badge" id="heroBadge"></div>
+      <h1 class="hero-title" id="heroTitle"></h1>
+      <p class="hero-subtitle" id="heroSubtitle"></p>
       <div class="hero-actions">
         <a href="#contact" class="btn btn-primary">Start Your Cloud Journey</a>
         <a href="#services" class="btn btn-ghost">Explore Services</a>
@@ -112,100 +106,7 @@
         <h2>Azure Cloud Services Built for Scale</h2>
         <p>Comprehensive managed services across the full Azure ecosystem — designed, deployed, and operated by certified Azure experts.</p>
       </div>
-      <div class="services-grid">
-
-        <div class="service-card" data-delay="0">
-          <div class="service-icon" style="background:linear-gradient(135deg,#0078d4,#106ebe)">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
-          </div>
-          <h3>Cloud Migration</h3>
-          <p>Lift-and-shift, re-platform, or re-architect — we guide your workloads to Azure with zero downtime and minimal disruption.</p>
-          <ul class="service-list">
-            <li>Assessment &amp; roadmapping</li>
-            <li>Azure Migrate tooling</li>
-            <li>Data migration &amp; validation</li>
-            <li>Post-migration optimisation</li>
-          </ul>
-          <a href="#contact" class="service-link">Learn more &rarr;</a>
-        </div>
-
-        <div class="service-card featured" data-delay="100">
-          <div class="service-badge">Most Popular</div>
-          <div class="service-icon" style="background:linear-gradient(135deg,#7b2ff7,#0078d4)">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-          </div>
-          <h3>Managed Azure Infrastructure</h3>
-          <p>Full lifecycle management of your Azure environment — provisioning, monitoring, patching, and cost governance included.</p>
-          <ul class="service-list">
-            <li>Azure Monitor &amp; Alerts</li>
-            <li>Automated patching</li>
-            <li>Cost Management &amp; Advisor</li>
-            <li>99.9% SLA guarantee</li>
-          </ul>
-          <a href="#contact" class="service-link">Learn more &rarr;</a>
-        </div>
-
-        <div class="service-card" data-delay="200">
-          <div class="service-icon" style="background:linear-gradient(135deg,#d83b01,#e74c3c)">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          </div>
-          <h3>Azure Security &amp; Compliance</h3>
-          <p>Protect your cloud estate with Microsoft Defender, Sentinel SIEM, identity governance, and compliance automation.</p>
-          <ul class="service-list">
-            <li>Microsoft Defender for Cloud</li>
-            <li>Azure Sentinel (SIEM/SOAR)</li>
-            <li>Zero Trust implementation</li>
-            <li>ISO 27001 / SOC 2 readiness</li>
-          </ul>
-          <a href="#contact" class="service-link">Learn more &rarr;</a>
-        </div>
-
-        <div class="service-card" data-delay="300">
-          <div class="service-icon" style="background:linear-gradient(135deg,#008272,#00b294)">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07M8.46 8.46a5 5 0 0 0 0 7.07"/></svg>
-          </div>
-          <h3>Azure DevOps &amp; CI/CD</h3>
-          <p>Streamline delivery pipelines with Azure DevOps, GitHub Actions, and Infrastructure-as-Code using Bicep and Terraform.</p>
-          <ul class="service-list">
-            <li>Azure DevOps pipelines</li>
-            <li>GitHub Actions workflows</li>
-            <li>Terraform / Bicep IaC</li>
-            <li>Container &amp; AKS deployment</li>
-          </ul>
-          <a href="#contact" class="service-link">Learn more &rarr;</a>
-        </div>
-
-        <div class="service-card" data-delay="400">
-          <div class="service-icon" style="background:linear-gradient(135deg,#ffaa44,#e67e22)">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-          </div>
-          <h3>Azure AI &amp; Analytics</h3>
-          <p>Unlock business intelligence and AI capabilities with Azure OpenAI, Synapse Analytics, and Power BI integration.</p>
-          <ul class="service-list">
-            <li>Azure OpenAI Service</li>
-            <li>Azure Synapse Analytics</li>
-            <li>Power BI embedded</li>
-            <li>Custom ML model deployment</li>
-          </ul>
-          <a href="#contact" class="service-link">Learn more &rarr;</a>
-        </div>
-
-        <div class="service-card" data-delay="500">
-          <div class="service-icon" style="background:linear-gradient(135deg,#50e6ff,#0078d4)">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.12 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          </div>
-          <h3>24/7 Managed Support</h3>
-          <p>Round-the-clock NOC and SOC support from Azure-certified engineers with guaranteed SLA response times.</p>
-          <ul class="service-list">
-            <li>P1 response &lt; 15 minutes</li>
-            <li>Dedicated account manager</li>
-            <li>Monthly health reports</li>
-            <li>Proactive incident prevention</li>
-          </ul>
-          <a href="#contact" class="service-link">Learn more &rarr;</a>
-        </div>
-
-      </div>
+      <div class="services-grid" id="servicesGrid"></div>
     </div>
   </section>
 
@@ -273,117 +174,7 @@
         <button class="filter-btn" data-filter="devops">DevOps</button>
         <button class="filter-btn" data-filter="ai">AI &amp; Analytics</button>
       </div>
-      <div class="portfolio-grid" id="portfolioGrid">
-
-        <div class="portfolio-card" data-category="migration">
-          <div class="portfolio-img" style="background:linear-gradient(135deg,#0078d4 0%,#50e6ff 100%)">
-            <div class="portfolio-overlay">
-              <span>Cloud Migration</span>
-            </div>
-          </div>
-          <div class="portfolio-info">
-            <span class="portfolio-tag">Migration</span>
-            <h3>Northwind Retail: 300-Server Migration in 90 Days</h3>
-            <p>Migrated a complex on-premises data centre to Azure with zero downtime, reducing infrastructure costs by 42%.</p>
-            <div class="portfolio-metrics">
-              <span>&#x2193; 42% Cost</span>
-              <span>90-Day Delivery</span>
-              <span>0 Hours Downtime</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio-card" data-category="security">
-          <div class="portfolio-img" style="background:linear-gradient(135deg,#d83b01 0%,#7b2ff7 100%)">
-            <div class="portfolio-overlay">
-              <span>Security</span>
-            </div>
-          </div>
-          <div class="portfolio-info">
-            <span class="portfolio-tag">Security</span>
-            <h3>FinServ Corp: SOC 2 Type II on Azure Sentinel</h3>
-            <p>Deployed a full SIEM/SOAR stack with Microsoft Sentinel, achieving SOC 2 compliance in under 6 months.</p>
-            <div class="portfolio-metrics">
-              <span>SOC 2 Type II</span>
-              <span>6-Month Timeline</span>
-              <span>0 Breaches</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio-card" data-category="devops">
-          <div class="portfolio-img" style="background:linear-gradient(135deg,#008272 0%,#00b294 100%)">
-            <div class="portfolio-overlay">
-              <span>DevOps</span>
-            </div>
-          </div>
-          <div class="portfolio-info">
-            <span class="portfolio-tag">DevOps</span>
-            <h3>TechStartup: From Weekly Releases to 20x Daily Deploys</h3>
-            <p>Built a full GitOps pipeline on Azure DevOps and AKS, enabling continuous delivery and 99.95% availability.</p>
-            <div class="portfolio-metrics">
-              <span>20x Deploy Frequency</span>
-              <span>99.95% Uptime</span>
-              <span>60% Faster Releases</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio-card" data-category="ai">
-          <div class="portfolio-img" style="background:linear-gradient(135deg,#ffaa44 0%,#7b2ff7 100%)">
-            <div class="portfolio-overlay">
-              <span>AI &amp; Analytics</span>
-            </div>
-          </div>
-          <div class="portfolio-info">
-            <span class="portfolio-tag">AI &amp; Analytics</span>
-            <h3>HealthCo: Predictive Analytics Platform on Azure Synapse</h3>
-            <p>Built a real-time analytics platform processing 10M+ events/day, delivering actionable insights via Power BI.</p>
-            <div class="portfolio-metrics">
-              <span>10M+ Events/day</span>
-              <span>Azure Synapse</span>
-              <span>35% Decision Speed</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio-card" data-category="migration">
-          <div class="portfolio-img" style="background:linear-gradient(135deg,#50e6ff 0%,#0078d4 100%)">
-            <div class="portfolio-overlay">
-              <span>Migration</span>
-            </div>
-          </div>
-          <div class="portfolio-info">
-            <span class="portfolio-tag">Migration</span>
-            <h3>Manufacturing SMB: Hybrid Cloud Architecture</h3>
-            <p>Designed Azure Arc-enabled hybrid infrastructure connecting factory floor systems to Azure with secure, low-latency connectivity.</p>
-            <div class="portfolio-metrics">
-              <span>Azure Arc</span>
-              <span>&lt;5ms Latency</span>
-              <span>100% Hybrid</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio-card" data-category="security">
-          <div class="portfolio-img" style="background:linear-gradient(135deg,#e74c3c 0%,#d83b01 100%)">
-            <div class="portfolio-overlay">
-              <span>Security</span>
-            </div>
-          </div>
-          <div class="portfolio-info">
-            <span class="portfolio-tag">Security</span>
-            <h3>LegalFirm: Zero Trust Identity Rollout</h3>
-            <p>Implemented Azure AD / Entra ID Zero Trust across 1,200 users, cutting identity-related incidents by 95%.</p>
-            <div class="portfolio-metrics">
-              <span>1,200 Users</span>
-              <span>Zero Trust</span>
-              <span>&#x2193; 95% Incidents</span>
-            </div>
-          </div>
-        </div>
-
-      </div>
+      <div class="portfolio-grid" id="portfolioGrid"></div>
     </div>
   </section>
 
@@ -395,57 +186,7 @@
         <h2>What Our Clients Say</h2>
       </div>
       <div class="testimonials-slider" id="testimonialsSlider">
-        <div class="testimonials-track" id="testimonialsTrack">
-
-          <div class="testimonial-card">
-            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p>"AzureEdge migrated our entire infrastructure in 90 days with zero downtime. The cost savings hit 42% in the first year — far exceeding our projections."</p>
-            <div class="testimonial-author">
-              <div class="author-avatar">JM</div>
-              <div>
-                <strong>James Mitchell</strong>
-                <span>CTO, Northwind Retail Group</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p>"Their security team helped us achieve SOC 2 Type II compliance on Azure Sentinel in record time. We now sleep soundly knowing our cloud is protected 24/7."</p>
-            <div class="testimonial-author">
-              <div class="author-avatar">SR</div>
-              <div>
-                <strong>Sarah Reynolds</strong>
-                <span>CISO, FinServ Corporation</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p>"We went from deploying once a week to 20+ times a day. The AKS and Azure DevOps setup AzureEdge built is rock-solid. Game-changing for our product velocity."</p>
-            <div class="testimonial-author">
-              <div class="author-avatar">AK</div>
-              <div>
-                <strong>Alex Kim</strong>
-                <span>VP Engineering, TechStartup</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p>"The managed support team is exceptional — every P1 resolved within 15 minutes, every time. Our monthly health reports give us full visibility into our Azure spend and performance."</p>
-            <div class="testimonial-author">
-              <div class="author-avatar">LP</div>
-              <div>
-                <strong>Linda Park</strong>
-                <span>IT Director, HealthCo Systems</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
+        <div class="testimonials-track" id="testimonialsTrack"></div>
         <div class="slider-controls">
           <button class="slider-btn" id="prevBtn" aria-label="Previous">&larr;</button>
           <div class="slider-dots" id="sliderDots"></div>
@@ -463,58 +204,7 @@
         <h2>Transparent, Scalable Plans</h2>
         <p>All plans include onboarding, Azure cost governance, and 24/7 NOC monitoring.</p>
       </div>
-      <div class="pricing-grid">
-
-        <div class="pricing-card">
-          <h3>Essential</h3>
-          <div class="price"><span class="price-currency">$</span>1,499<span class="price-period">/mo</span></div>
-          <p class="price-desc">For startups and small businesses taking their first steps in Azure.</p>
-          <ul class="pricing-features">
-            <li>&#10003; Up to 20 Azure resources</li>
-            <li>&#10003; Azure Monitor &amp; alerts</li>
-            <li>&#10003; Monthly cost reports</li>
-            <li>&#10003; Business hours support</li>
-            <li>&#10003; Patch management</li>
-            <li class="disabled">&#10007; Security operations (SOC)</li>
-            <li class="disabled">&#10007; DevOps pipeline management</li>
-          </ul>
-          <a href="#contact" class="btn btn-outline">Get Started</a>
-        </div>
-
-        <div class="pricing-card featured">
-          <div class="pricing-badge">Most Popular</div>
-          <h3>Professional</h3>
-          <div class="price"><span class="price-currency">$</span>3,999<span class="price-period">/mo</span></div>
-          <p class="price-desc">For growing businesses that need enterprise-grade management.</p>
-          <ul class="pricing-features">
-            <li>&#10003; Up to 100 Azure resources</li>
-            <li>&#10003; Azure Monitor + Defender</li>
-            <li>&#10003; Weekly cost &amp; health reports</li>
-            <li>&#10003; 24/7 NOC support</li>
-            <li>&#10003; Patch management</li>
-            <li>&#10003; Azure Sentinel SIEM</li>
-            <li>&#10003; CI/CD pipeline support</li>
-          </ul>
-          <a href="#contact" class="btn btn-primary">Get Started</a>
-        </div>
-
-        <div class="pricing-card">
-          <h3>Enterprise</h3>
-          <div class="price">Custom</div>
-          <p class="price-desc">For large organisations with complex, multi-region Azure environments.</p>
-          <ul class="pricing-features">
-            <li>&#10003; Unlimited Azure resources</li>
-            <li>&#10003; Full SOC &amp; SIEM operations</li>
-            <li>&#10003; Real-time cost governance</li>
-            <li>&#10003; 24/7 NOC + SOC</li>
-            <li>&#10003; Dedicated account team</li>
-            <li>&#10003; Custom SLA agreements</li>
-            <li>&#10003; Architecture advisory</li>
-          </ul>
-          <a href="#contact" class="btn btn-outline">Contact Sales</a>
-        </div>
-
-      </div>
+      <div class="pricing-grid" id="pricingGrid"></div>
     </div>
   </section>
 
@@ -531,21 +221,21 @@
               <div class="cd-icon">&#128222;</div>
               <div>
                 <strong>Phone</strong>
-                <span>+1 (800) 555-AZURE</span>
+                <span id="contactPhone">+1 (800) 555-AZURE</span>
               </div>
             </div>
             <div class="contact-detail">
               <div class="cd-icon">&#128140;</div>
               <div>
                 <strong>Email</strong>
-                <span>hello@azureedge.io</span>
+                <span id="contactEmail">hello@azureedge.io</span>
               </div>
             </div>
             <div class="contact-detail">
               <div class="cd-icon">&#127758;</div>
               <div>
                 <strong>Offices</strong>
-                <span>London &bull; Seattle &bull; Sydney</span>
+                <span id="contactOffices">London &bull; Seattle &bull; Sydney</span>
               </div>
             </div>
           </div>
