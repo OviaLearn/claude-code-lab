@@ -19,7 +19,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "main" {
-  name     = "claude-code-lab-rg"
+  name     = var.resource_group_name
   location = "UK South"
 }
 
