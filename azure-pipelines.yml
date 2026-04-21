@@ -47,4 +47,4 @@ stages:
               cd terraform
               terraform init
               terraform apply -auto-approve
-            displayName: Terraform Apply
+            displayName: Terraform Applyi want 
