@@ -1,7 +1,7 @@
 const CACHE = 'conditioning-v1';
 const ASSETS = [
-  '/Fitness/fat-loss-guide.html',
-  '/Fitness/manifest.json'
+  '/claude-code-lab/Fitness/fat-loss-guide.html',
+  '/claude-code-lab/Fitness/manifest.json'
 ];
 
 self.addEventListener('install', e => {

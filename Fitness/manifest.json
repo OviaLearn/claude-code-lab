@@ -2,7 +2,7 @@
   "name": "12-Week Conditioning",
   "short_name": "Conditioning",
   "description": "12-week fat loss conditioning programme",
-  "start_url": "/Fitness/fat-loss-guide.html",
+  "start_url": "/claude-code-lab/Fitness/fat-loss-guide.html",
   "display": "standalone",
   "background_color": "#0a0907",
   "theme_color": "#0a0907",
