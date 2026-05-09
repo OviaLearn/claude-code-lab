@@ -7,6 +7,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Conditioning">
 <meta name="theme-color" content="#0a0907">
+<link rel="manifest" href="manifest.json">
 <title>12-Week Conditioning</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -871,6 +872,11 @@
     });
     updateResetVisibility();
   });
+</script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/Fitness/service-worker.js');
+  }
 </script>
 </body>
 </html>
